@@ -1,0 +1,54 @@
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Student</th>
+      <th>Roll No.</th>
+      <th>Subject</th>
+      <th>Score</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Priya Sharma</td>
+      <td>11A034</td>
+      <td>Mathematics</td>
+      <td>92</td>
+      <td>Passed</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Amit R.</td>
+      <td>11A012</td>
+      <td>Physics</td>
+      <td>78</td>
+      <td>Passed</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Sana Q.</td>
+      <td>11A021</td>
+      <td>Chemistry</td>
+      <td>59</td>
+      <td>Remedial</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Rohit P.</td>
+      <td>11A045</td>
+      <td>Biology</td>
+      <td>48</td>
+      <td>Failed</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Meera N.</td>
+      <td>11A007</td>
+      <td>English</td>
+      <td>85</td>
+      <td>Passed</td>
+    </tr>
+  </tbody>
+</table>
