@@ -7,7 +7,7 @@
   <title>Student Scores — Responsive Table Project</title>
 
   <style>
-    /* ====== Basic page layout ====== */
+    
     :root{
       --bg: #f5f7fb;
       --card: #ffffff;
@@ -58,7 +58,7 @@
       font-size:13px;
     }
 
-    /* ====== Table card ====== */
+    
     .table-card{
       background:var(--card);
       border-radius:var(--radius);
@@ -68,7 +68,7 @@
       overflow:hidden;
     }
 
-    /* responsive container to allow horizontal scroll on very small screens */
+    
     .table-responsive{
       width:100%;
       overflow:auto;
@@ -77,7 +77,7 @@
     table.styled {
       width:100%;
       border-collapse:collapse;
-      min-width:700px; /* cause horizontal scroll on very narrow displays */
+      min-width:700px; 
     }
 
     thead th{
@@ -100,19 +100,19 @@
       border-bottom:1px dashed #f1f3f7;
     }
 
-    /* zebra rows */
+    
     tbody tr:nth-child(even){
       background:var(--row-even);
     }
 
-    /* hover highlight */
+    
     tbody tr:hover{
       background:linear-gradient(90deg, #ffffff, #f7fbff);
       transform:translateY(-1px);
       transition:all 0.12s ease;
     }
 
-    /* small pill for status */
+  
     .status{
       display:inline-block;
       padding:6px 10px;
@@ -125,10 +125,9 @@
     .status.remedial{ background:#fff7ed; color:#92400e; }
     .status.failed{ background:#fff1f2; color:#9f1239; }
 
-    /* compact right-aligned numeric column */
     .right { text-align:right; white-space:nowrap; }
 
-    /* caption styling */
+    
     table caption{
       caption-side:top;
       text-align:left;
@@ -137,15 +136,13 @@
       color:var(--muted);
       font-size:13px;
     }
-
-    /* ====== Responsive: stack rows as cards under 720px ====== */
     @media (max-width: 720px){
       .table-responsive { overflow:visible; }
       table.styled {
         border:0;
         min-width:0;
       }
-      thead { display:none; } /* hide header on small screens */
+      thead { display:none; } 
       tbody tr {
         display:block;
         margin:12px 0;
@@ -162,7 +159,7 @@
         border-bottom:0;
         font-size:14px;
       }
-      /* label on left, value on right (use data-label) */
+      
       tbody td::before {
         content: attr(data-label);
         font-weight:600;
@@ -175,7 +172,7 @@
       .right { text-align:right; }
     }
 
-    /* small utility buttons (non-JS) */
+    
     .btn {
       border:1px solid rgba(37,99,235,0.12);
       background:transparent;
